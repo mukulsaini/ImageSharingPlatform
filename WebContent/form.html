@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" href="style.css" >
+</head>
+<body>
+
+
+<a id="first" href="#" >Login</a>
+<a id="second" href="#">Sign Up</a>
+
+<div id="sign_up" hidden>
+	<h2>Login</h2>
+	<form method="post" action="">
+		<p class="input"><input type="text" placeholder="Username" required></p>
+		
+		<p class="input"><input type="password" placeholder="Password" required> </p>	
+		
+		<input type="submit" value ="Login">
+	</form>
+</div>
+<div id="login" hidden>
+	<h2>Sign Up</h2>
+	<form method="post" action="">
+		<p class="input"><input type="text" placeholder="Username" required></p>
+		
+		<p class="input"><input type="password" placeholder="Password" required> </p>	
+		
+		<input type="submit" value ="Login">
+	</form>
+</div>
+
+<script src="jquery.js"></script>
+<script src="lightbox.js"></script>
+
+<script>
+	$('#first').click(function(e) {
+    $('#sign_up').lightbox_me({
+        centered: true, 
+		overlayCSS:	{
+						background: 'silver', 
+						opacity: .4
+					},
+        onLoad: function() { 
+            $('#sign_up').find('input:first').focus()
+            }
+        });
+    e.preventDefault();
+});
+   	$('#second').click(function(e) {
+    $('#login').lightbox_me({
+        centered: true, 
+		overlayCSS:	{
+						background: 'silver', 
+						opacity: .4
+					},
+        onLoad: function() { 
+            $('#login').find('input:first').focus()
+            }
+        });
+    e.preventDefault();
+});       
+</script>
+</body>
+</html>

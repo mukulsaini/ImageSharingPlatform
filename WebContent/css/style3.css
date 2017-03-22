@@ -1,0 +1,40 @@
+#header {
+    background-color:white;
+    font-family: sans-serif;
+    opacity: 0.4;
+    color:Red;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    font-family: sans-serif;
+    height:300px;
+    width:300px;
+    float:left;
+    padding:5px;	      
+}
+	 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+body {
+    background-image: url("http://notamag.ru/wp-content/uploads/2014/12/most-beautiful-innocent-and-silen-ocean-sea-blue-cloudy-sky-view-nature-hd-background-wallpapers-2560-x-1600.jpg");
+}

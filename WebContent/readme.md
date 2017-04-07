@@ -2,7 +2,7 @@
 
 Jsp-Servlet web application using MySQL database.
 
-###Features 
+### Features 
 * Upload an image by either drag and drop or selecting an image.
 * Like or Unlike images.
 * Share images

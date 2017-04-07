@@ -1,20 +1,14 @@
-## Image Sharing Platform
+# Image Sharing Platform
 
-Description - This is web based application just like Instagram. The main functionalities of this app are:
+Jsp-Servlet web application using MySQL database.
 
-1.User can upload an image by either drag and drop or selecting an image.
+### Features 
+* Upload an image by either drag and drop or selecting an image.
+* Like or Unlike images.
+* Share images
+* Follow other users
 
-2.User can like or unlike any image.
-
-3.User can follow other users.
-
-4.User can share any image.
-
-Contributors -
-1.Mukul Saini(Mentor) 
-
-2.Samriddh Kulshrestha 
-
-3.Samyak Dutt Gupta
-
-This Project was done under the Winter Internship Project (2015-16) of Computer Society of India , LNMIIT Jaipur
+### Contributors
+* Mukul Saini - Mentor.
+* Samriddh Kulshrestha - Implementing Backend Functionality.
+* Samyak Dutt Gupta - Frontend of the application.
